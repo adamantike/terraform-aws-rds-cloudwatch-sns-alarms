@@ -10,7 +10,7 @@ variable "db_master_ids" {
 }
 
 variable "aws_sns_topic_arn" {
-  description = "The bla of the SNS topic you want to use for alerting"
+  description = "The ARN of the SNS topic you want to use for alerting"
   type        = string
 }
 
